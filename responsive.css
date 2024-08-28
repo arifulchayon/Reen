@@ -1,0 +1,368 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* CSS */
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .header-section .top-header {
+    padding: 25px 0px 15px;
+  }
+
+  .header-section .top-header .contact-part {
+    font-size: 14px;
+}
+.Menu-header .search-icon .fa {
+  padding-left: 2.5%;
+}
+.banner-section .carousel-inner .carousel-item .carousel-caption {
+  bottom: 25%;
+}
+.banner-section .carousel-inner .carousel-item h5 {
+  font-size: 32px;
+}
+
+.banner-section .carousel-inner .carousel-item p {
+  font-size: 16px;
+  line-height: 20px;
+  width: 100%;
+  margin: 0px auto 20px;
+}
+
+.banner-section .carousel-inner .carousel-item a {
+  padding: 2.5% 3%;
+}
+.details-section {
+  padding: 50px 0px;
+}
+
+.details-section .inner-details h5 {
+  font-size: 32px;
+
+}
+
+.details-section .inner-details p {
+  font-size: 15px;
+  line-height: 22px;
+  width: 100%;
+  padding: 0% 8%;
+}
+.details-section .more-details .describe-part h6 {
+  font-size: 24px;
+}
+
+.details-section .more-details .describe-part p {
+  line-height: 23px;
+}
+.details-section .more-details {
+  padding: 0px 102px;
+}
+.Lwork-section {
+  padding: 50px 0px;
+
+}
+.Lwork-section .inner-work {
+  margin-bottom: 30px;
+}
+
+.Lwork-section .inner-work h5 {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.Lwork-section .inner-work p {
+  font-size: 16px;
+  line-height: 24px;
+}
+.Lwork-section .flip-card {
+  width: 100%;
+
+}
+.owl-carousel,
+  .owl-carousel.owl-loaded {
+    margin-top: -80px;
+  }
+  .m-responsive {
+    margin-left: 0px !important;
+  }
+  .workwithus-section .inner-title {
+    padding: 50px 0px;
+}
+.workwithus-section .inner-title p {
+  width: 100%;
+  padding: 0px 55px;
+  margin:  0px auto 30px;
+}
+.workwithus-section .inner-title a {
+  padding: 2.5% 4%;
+}
+.footer-section .top-footer {
+  padding: 50px 0px;
+}
+
+.footer-section .top-footer .inner-part {
+  text-align: center;
+}
+
+.footer-section .top-footer .inner-part h4 {
+  margin-bottom: 14px;
+}
+
+.footer-section .top-footer .inner-part p {
+  font-size: 15px;
+  line-height: 23px;
+  padding: 0px 30px;
+  margin-bottom: 5px;
+}
+.footer-section .top-footer .inner-part {
+  margin-bottom: 20px;
+}
+.footer-section .top-footer .inner-part .m-reponsive {
+  margin: 15px 0px;
+}
+.footer-section .top-footer .inner-part .footer-form {
+ padding: 0px 95px;
+}
+.footer-section .top-footer .inner-part .footer-form .btn-primary {
+  right: 100px;
+}
+.footer-section .bottom-footer {
+  padding: 20px 0px 20px;
+}
+.footer-section .bottom-footer p {
+  text-align: center;
+}
+.footer-section .bottom-footer .footer-menu {
+ text-align: center;
+}
+.footer-section .bottom-footer .footer-menu li {
+  font-size: 16px;
+}
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* CSS */
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .header-section .top-header {
+    padding: 15px 0px 15px;
+  }
+
+  .header-section .top-header .contact-part {
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 15px;
+}
+.header-section .top-header .contact-part p{
+  margin-bottom: 2px;
+}
+
+  .Menu-header {
+    padding: 25px 10px;
+  }
+
+  .Menu-header .search-icon .fa {
+    padding-left: 4.5%;
+  }
+
+  .banner-section .carousel-inner .carousel-item .carousel-caption {
+    bottom: 10%;
+  }
+
+  .w-100 {
+    width: 125% !important;
+  }
+
+  .banner-section .carousel-inner .carousel-item h5 {
+    font-size: 165%;
+}
+
+  .banner-section .carousel-inner .carousel-item p {
+    font-size: 93%;
+    line-height: 15px;
+    width: 100%;
+    margin: -5px auto 10px;
+}
+
+  .banner-section .carousel-inner .carousel-item a {
+    padding: 2% 2%;
+  }
+
+  .details-section {
+    padding: 50px;
+  }
+
+  .details-section .inner-details h5 {
+    font-size: 28px;
+
+  }
+
+  .details-section .inner-details p {
+    font-size: 14px;
+    line-height: 19px;
+    width: 100%;
+    padding: 0% 1%;
+  }
+
+  .details-section .more-details .describe-part p {
+    line-height: 21px;
+  }
+
+  .Lwork-section {
+    padding: 50px;
+  }
+
+  .Lwork-section .inner-work {
+    margin-bottom: 30px;
+  }
+
+  .Lwork-section .inner-work h5 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .Lwork-section .inner-work p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .Lwork-section .flip-card {
+    width: 100%;
+    margin-bottom: -40%;
+  }
+
+  .m-responsive {
+    margin-left: 0px !important;
+  }
+
+  .owl-carousel,
+  .owl-carousel.owl-loaded {
+    margin-top: 20px;
+  }
+
+  .workwithus-section .inner-title {
+    padding: 50px;
+  }
+
+  .workwithus-section .inner-title h5 {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+
+  .workwithus-section .inner-title p {
+    width: 100%;
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .workwithus-section .inner-title a {
+    padding: 4% 5%;
+
+  }
+
+  .footer-section .top-footer {
+    padding: 50px 0px;
+  }
+
+  .footer-section .top-footer .inner-part {
+    text-align: center;
+  }
+
+  .footer-section .top-footer .inner-part h4 {
+    margin-bottom: 12px;
+  }
+
+  .footer-section .top-footer .inner-part p {
+    font-size: 13px;
+    line-height: 21px;
+    padding: 0px 22px;
+    margin-bottom: 5px;
+  }
+  .footer-section .top-footer .inner-part {
+    margin-bottom: 10px;
+}
+.footer-section .top-footer .inner-part h4 {
+  margin-top: 10px;
+}
+.footer-section .top-footer .inner-part p {
+  padding: 0px 43px;
+}
+.footer-section .top-footer .inner-part .m-reponsive {
+  margin: 15px 0px;
+}
+.footer-section .top-footer .inner-part .footer-form {
+  margin: 20px 0px -15px;
+}
+.footer-section .bottom-footer {
+  padding: 20px 0px 15px;
+}
+.footer-section .bottom-footer p {
+  text-align: center;
+}
+.footer-section .bottom-footer .footer-menu {
+ text-align: center;
+}
+.footer-section .bottom-footer .footer-menu li {
+  margin-right: 8px;
+  font-size: 13px;
+}
+}

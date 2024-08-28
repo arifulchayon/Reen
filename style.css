@@ -1,0 +1,510 @@
+/* Google DM sens font link up */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/* ********************
+******** Global CSS   ******* 
+************************/
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    
+}
+
+body{
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #212529;
+    text-align: left;
+}
+.container{
+    padding-right: 95px;
+    padding-left: 95px;
+    margin-right: auto;
+    margin-left: auto;
+}
+ /* .col-lg{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+ } */
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+
+/* now start our normal project css */
+
+/* Header Section CSS start here */
+
+/* Top-Header css start here */
+.header-section{
+    width: 100%;
+    
+}
+
+.header-section .top-header{
+    width: 100%;
+    background-color: #f5f7fa;
+    padding: 13px 0px 1px;
+    
+}
+
+.header-section .top-header .contact-part{
+    display: flex;
+}
+
+.header-section .top-header .contact-part p a{
+    padding-right: 15px;
+    color: #506a85;
+    font-weight: 600;
+    
+
+}
+.header-section .top-header .contact-part p a:hover{
+    text-decoration: underline;
+    color: #00bc9c;
+   
+}
+.header-section .top-header .contact-part p a i{
+    margin-right: 5px;
+}
+
+.header-section .top-header .social-icon{
+    text-align: right;
+}
+
+.header-section .top-header .social-icon ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+.header-section .top-header .social-icon ul li a{
+    color: #506a85;
+}
+.header-section .top-header .social-icon ul li a:hover{
+    color: #00bc9c;
+}
+/* Top Header css end here */
+
+/* Main-menu header css start here */
+/* Main-menu header css end here */
+.Menu-header{
+    width: 100%;
+    background: white;
+    opacity: 0.8;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    
+
+}
+.Menu-header{
+    padding: 25px 0px;
+  
+}
+.Menu-header .navbar-nav .nav-item .nav-link{
+    color: #506a85;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 15px;
+    transition: 0.5s;
+}
+.Menu-header .navbar-nav .nav-item .nav-link:hover{
+    color: #00bc9c;
+}
+.Menu-header .search-icon .fa{
+    color: #506a85;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Menu-header .search-icon .fa:hover{
+    color: #00bc9c;
+}
+
+
+
+/* Header Section CSS end here */
+
+/* Carousel Banner section coding start here */
+
+.banner-section{
+    width: 100%;
+}
+.banner-section .carousel-inner .carousel-item h5{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.banner-section .carousel-inner .carousel-item p{
+    font-size: 16px;
+    color: #a3b1bf;
+    line-height: 26px;
+    width: 76%;
+    margin: 0px auto 60px;
+}
+
+.banner-section .carousel-inner .carousel-item a{
+    background-color: #00bc9c;
+    color: white;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border:  1px solid #00bc9c;
+    border-radius: 3px;
+
+}
+.banner-section .carousel-inner .carousel-item a:hover{
+    color: #00bc9c;
+    background-color: transparent;
+}
+.banner-section .carousel-inner .carousel-item .carousel-caption{
+    bottom: 32%;
+}
+
+/* Carousel Banner section coding end here */
+
+/* About details section css start here */
+
+.details-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.details-section .inner-details{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.details-section .inner-details h5{
+    color: #506a85;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+                 
+}
+
+
+.details-section .inner-details p{
+    color: #73879c;
+    font-size: 16px;
+    line-height: 26px;
+    width: 53%;
+    margin: 0 auto;
+    
+}
+
+
+.details-section .more-details{
+    display: flex;
+    margin-top: 28px;
+}
+
+.details-section .more-details .icon-part{
+    margin-right: 10px;
+}
+
+.details-section .more-details .describe-part h6{
+    font-size: 20px;
+    font-weight: 600;
+    color: #506a85;
+    margin-bottom: 15px;
+}
+
+.details-section .more-details .describe-part p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #73879c;
+    width: 102%;
+}
+
+
+/* About details section css end here */
+
+/* Latest word section css start here */
+
+.Lwork-section{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #f2f5f7;
+}
+.Lwork-section .inner-work {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.Lwork-section .inner-work h5{
+    font-size: 35px;
+    font-weight: 600;
+    color: #506a85;
+    margin-bottom: 20px;
+}
+
+.Lwork-section .inner-work p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #73879c;
+}
+
+.Lwork-section .flip-card {
+    width: 100%;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    width: 540px;
+    height: 473.094px;
+    /* border: 1px solid #f1f1f1; */
+    perspective: 1000px; 
+    /* Remove this if you don't want the 3D effect */
+    margin-bottom: 20px;
+  }
+  
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    /* background-color: #bbb;
+    color: black; */
+  }
+
+.Lwork-section .flip-card .flip-card-inner .flip-card-front .card .card-body h5{
+    
+    font-size: 20px;
+    font-weight: 600;
+    color: #506a85;
+    margin-bottom: 15px;
+}
+.Lwork-section .flip-card .flip-card-inner .flip-card-back .card .card-body h5{
+    
+    font-size: 20px;
+    font-weight: 600;
+    color: #506a85;
+    margin-bottom: 15px;
+}
+
+.Lwork-section .flip-card .flip-card-inner .flip-card-front .card .card-body p{
+    font-size: 14px;
+    color: #73879c;
+}
+
+.Lwork-section .flip-card .flip-card-inner .flip-card-back .card .card-body p{
+    font-size: 14px;
+    color: #73879c;
+}
+  
+  /* Style the back side */
+  .flip-card-back {
+    /* background-color: dodgerblue;
+    color: white; */
+    transform: rotateY(180deg);
+  }  
+/* Latest word section css end here */
+
+/* Latest work section css start here */
+
+.owl-carousel, .owl-carousel.owl-loaded {
+    display: block;
+    margin-top: 46px;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 30px;
+}
+/* Latest work section css end here */
+
+/* Workwithus section css start here */
+
+.workwithus-section{
+    width: 100%;
+}
+
+.workwithus-section .inner-title{
+    width: 100%;
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.workwithus-section .inner-title h5{
+    font-size: 35px;
+    font-weight: 600;
+    color: #506a85;
+    margin-bottom: 25px;
+}
+
+.workwithus-section .inner-title p{
+    width: 53%;
+    font-size: 16px;
+    line-height: 26px;
+    color: #73879c;
+    margin: 0px auto 50px;
+}
+
+.workwithus-section .inner-title a{
+    background-color: #00bc9c;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: 1px solid #00bc9c;
+}
+.workwithus-section .inner-title a:hover{
+    background-color: transparent;
+    color: #00bc9c;
+    text-decoration: none;
+}
+/* Workwithus section css end here */
+
+/* Footer section css start here  */
+.footer-section{
+    width: 100%;
+}
+.footer-section .top-footer{
+    width: 100%;
+    background-color: #2f4052;
+    padding: 80px 0px;
+}
+.footer-section .top-footer .inner-part{
+    width: 100%;
+    padding: 0px;
+}
+.footer-section .top-footer .inner-part h4{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-section .top-footer .inner-part img{
+    margin-bottom: 12px;
+}
+
+.footer-section .top-footer .inner-part p {
+    font-size: 13px;
+    line-height: 24px;
+    color: #a3b1bf;
+    width: 101%;
+}
+
+.footer-section .top-footer .inner-part a{
+    color: #a3b1bf;
+}
+.footer-section .top-footer .inner-part a i{
+    margin-left: 10px;
+}
+.footer-section .top-footer .inner-part a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-section .top-footer .inner-part .mb{
+   padding: 5px;
+}
+.footer-section .top-footer .inner-part .card img{
+    margin-bottom: 0px;
+}
+
+.footer-section .top-footer .inner-part p i{
+    margin-right: 10px;
+}
+
+.footer-section .top-footer .inner-part .footer-form{
+    width: 100%;
+    position: relative;
+}
+.footer-section .top-footer .inner-part .footer-form .form-control{
+    height: auto;
+    padding: 11px 4px;
+    background-color: #4e5c6c;
+    border: 1px solid #4e5c6c;
+    color: #828e99;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.footer-section .top-footer .inner-part .footer-form .btn-primary{
+    position: absolute;
+    top: 4px;
+    right: 2px;
+    background-color: #00bc9c;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    border: 1px solid #00bc9c;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus{
+    box-shadow: 0 0 0 .2rem rgba(38, 143, 255, .5);
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: var(--bs-btn-active-color) !important;
+    background-color: var(--bs-btn-active-bg) !important;
+    border-color: var(--bs-btn-active-border-color) !important;
+}
+
+.footer-section .bottom-footer{
+    width: 100%;
+    padding: 20px 0px 0px;
+    background-color: #283645;
+}
+.footer-section .bottom-footer p{
+    color: #616f7d;
+    font-size: 14px;
+}
+.footer-section .bottom-footer .footer-menu li{
+    list-style: none;
+    display: inline-block;
+    color: #616f7d;
+    margin-right: 10px;
+}
+.footer-section .bottom-footer .footer-menu li i{
+    font-size: 5px;
+    vertical-align: middle;
+}
+/* Footer section css end here  */
